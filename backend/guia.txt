@@ -1,0 +1,27 @@
+1- Definir las dependencias del proyecto: package.json.
+npm init -y (en la terminal dentro de la carpeta 'backend').
+
+2. Crear el framework 'Express' dentro de la aplicación.
+npm i express (en la terminal dentro de la carpeta 'backend').
+
+3. Crear carpeta 'src' o código fuente dentro de 'backend'. Es donde se almacenará toda mi aplicación con sus debidos procesos.
+
+4. Crear el modelo MVC o vista-controlador dentro de 'src'.
+(controllers, db, routes).
+
+5. Crear archivo 'app.js' dentro de 'src'. Este archivo será la aplicación como tal.
+
+6. Crear archivo 'index.js' dentro de 'src'. Este archivo será el que lanza toda la aplicación.
+
+7. Crear archivo 'config.js' dentro de 'src'. Este archivo será el que configurará la base de datos.
+
+8. Crear archivo '.env' de variables de entorno dentro de 'backend'. En este archivo se indican y especifican los datos sensibles de los valores de la cadena de conexión a la base de datos.
+
+9. Instalar dependecia 'nodemon' dentro de 'backend'. ESta dependencia reiniciar el servidor una vez se haga un cambio en la aplicación.
+npm i -D nodemon (en la terminal dentro de 'backend').
+
+10. Crear archivo 'categorias.routes.js' dentro de la carpeta 'routes'.
+
+11. Instalar paquete 'dotenv' dentro de 'backend'.
+
+12. Instalar paquete 'promise-mysql' dentro de 'backend'.
